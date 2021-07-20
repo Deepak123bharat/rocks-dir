@@ -1,5 +1,5 @@
 rockspec_format = "3.0"
-package = "rocksdir"
+package = "rocks-dir"
 version = "dev-1"
 source = {
 	url = "git://github.com/Deepak123bharat/rocks-dir.git",
