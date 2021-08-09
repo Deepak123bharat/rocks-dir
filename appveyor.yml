@@ -25,7 +25,6 @@ install:
   - hererocks env --%LUA% --target %configuration% --luarocks latest
 
 before_build:
-# @todo
 - echo "Installing external deps"
 
 build_script:
@@ -37,7 +36,7 @@ before_test:
 
 test_script:
 - echo "Type check..."
-- tl check src/rocks/dir.d.tl
+- tl check src/rocks/dir.d.tl 
 - echo "Testing..."
 - luarocks test 
 
